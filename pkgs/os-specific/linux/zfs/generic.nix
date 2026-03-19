@@ -106,7 +106,7 @@ let
       inherit version;
 
       src = fetchFromGitHub {
-        owner = "openzfs";
+        owner = "verschmelzen";
         repo = "zfs";
         inherit rev hash;
       };
